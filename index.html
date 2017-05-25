@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Star Wars RPG">
+		<meta name="author" content="Don Bedwell">
+		<title>Star Wars RPG | Don Bedwell</title>
+		<link href="https://fonts.googleapis.com/css?family=Coda|Orbitron|Russo+One" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<img id="logo" alt="Star Wars RPG" src="assets/images/logo.jpg">	
+			</header>
+		
+			<main>
+				<div id="character-choice"></div>
+				<div id="instructions"></div>
+				<div id="character-arena">
+					<div id="fight-characters"></div>
+					<div id="fight-status"></div>
+					<nav>
+						<button id="attack" onclick="game.hitMe()">ATTACK</button>
+						<button id="reset" onclick="window.location.reload()">RESET</button>
+					</nav>
+				</div>
+			</main>
+			
+			<footer>
+				&copy; 2017 Don Bedwell
+			</footer>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="assets/javascript/game.js"></script>
+	</body>
+</html>

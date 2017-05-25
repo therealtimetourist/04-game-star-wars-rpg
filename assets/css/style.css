@@ -1,0 +1,126 @@
+/* Star Wars RPG styles */
+/*   Don Bedwell 2017   */
+
+body{
+	background-image: url(../images/body-bg.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+header{
+	text-align: center;
+}
+
+main{
+	width:1000px;
+	margin:0px auto;
+}
+
+#logo{
+	display: inline-block;
+	float:left;
+}
+
+#character-choice{
+	margin:auto; padding:0px;
+	text-align: center;
+	display:block;
+	height: 175px;
+}
+
+.character{
+	height:50px; width:150px;
+	background-color: #ff0000;
+	border:1px #ff0000 solid;
+	color:#fff;
+	display:inline-block;
+	margin:10px; padding:100px 0px 0px 0px;
+	text-align: center;
+	font-family: 'Coda', sans-serif; font-size: 18px; line-height: 24px;
+}
+
+#instructions{
+	width:664px;
+	position: relative; bottom:0px;
+	margin:0px auto;
+	border: 1px #ff0000 solid; 
+	color:#fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1{ font-family: 'Orbitron', sans-serif; font-size: 24px; line-height: 42px; letter-spacing: 3px; }
+h2{ font-family: 'Orbitron', sans-serif; font-size: 18px; line-height: 32px; font-weight:normal; letter-spacing: 2px; }
+
+hr{
+	width:50%;
+	margin:0px;
+}
+
+footer{
+	font: normal 12px/48px 'Coda', cursive;
+	color:#ff0000;
+	text-align:center;
+}
+
+#hp, #att{
+	display:inline-block;
+	font-size: 14px;
+	margin:0px 10px;
+}
+
+#character-arena{
+	border:1px solid #ffff00;
+	width:664px; height: 400px;
+	margin:20px auto;
+	position: relative;
+	text-align:center;
+	color: #fff;
+}
+
+#char_0{
+	background: url(../images/char-obiwan.jpg) no-repeat;
+	background-position: center center;
+	background-size:  cover;
+}
+
+#char_1{
+	background: url(../images/char-luke.jpg) no-repeat;
+	background-position: center center;
+	background-size:  cover;
+}
+
+#char_2{
+	background: url(../images/char-anakin.jpg) no-repeat;
+	background-position: center center;
+	background-size:  cover;
+}
+
+#char_3{
+	background: url(../images/char-maul.jpg) no-repeat;
+	background-position: center center;
+	background-size:  cover;
+}
+
+nav{
+	width:100%;
+	text-align:center;
+	position:absolute; bottom:10px;
+}
+
+#fight-characters div.character{
+	height:70px; width:250px;
+	padding:180px 0px 0px 0px;
+	background-position: center center;
+	background-size: cover;
+}
+
+.hero{
+	border: 1px #3399ff solid;
+}
+.enemy{
+	border: 1px #ffff00 solid;
+}
+
